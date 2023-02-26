@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans&family=Kanit&family=Lobster&family=Oswald&family=Pacifico&family=Shantell+Sans&family=Source+Code+Pro&family=Teko&family=Tilt+Prism&family=Ubuntu&display=swap');
+.hide {
+    display: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.landing {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #8ECAE6;
+}
+.welcome-text {
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    left: 5%;
+    font-family: "Lobster";
+    font-size: 150px;
+    text-align: center;
+}
+.welcome-more {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Oswald";
+}
+.welcome-login {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    width: 30%;
+    background-color: #219EBC;
+    font-size: 50px;
+    height: 10%;
+    border: none;
+    border-radius: 40px;
+    font-family: "Pacifico";
+}
+.welcome-login:hover {
+    cursor: pointer;
+}
+.bottom-img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.footer {
+    position: absolute;
+    top: 100vh;
+    left: 0px;
+    width: 100%;
+    height: 10vh;
+    background-color: #FFB703;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-text {
+    margin: auto;
+    font-size: 20px;
+    font-family: "Oswald";
+}

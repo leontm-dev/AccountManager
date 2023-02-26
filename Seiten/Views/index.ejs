@@ -8,21 +8,37 @@
     <meta name="keywords" content="AccountManager, Accounts, Social Media">
     <meta name="description" content="Manage all your Accounts on one platform, view every account with main info and redirects to change or config everything to the same!">
     <meta name="author" content="LeonTM">
+    <link rel="stylesheet" href="/Seiten/Cookies/cookies.css">
+    <link rel="stylesheet" href="/Seiten/Index/style.css">
+    <link rel="stylesheet" href="/Seiten/NavBar/navbar.css">
+    <script src="/Seiten/Cookies/cookies.js"></script>
+    <script src="/Seiten/NavBar/navbar.js"></script>
 </head>
 <body>
+    <div class="cookies-popup" id="cookies-popup">
+        <div class="cookies-title" id="cookies-title">This site is using cookies!</div>
+        <div class="cookies-more" id="cookies-more">This site is saving login data in your local storage! If you dont want this to happen, click decline.</div>
+        <button title="Decline any cookies" class="cookies-decline" id="cookies-decline" onclick="cookiesDecline()" type="button">Decline</button>
+        <button title="Accept the use of cookies" class="cookies-accept" id="cookies-accept" onclick="cookiesAccept()" type="button">Accept</button>
+    </div>
     <nav id="nav-bar" class="nav-bar">
         <div class="nav-item" id="nav-item-1">
-            <div class="nav-item-name">Home</div>
             <img class="nav-item-img" src="/Images/Black/Home.png">
+            <div class="nav-item-name">Home</div>
         </div>
         <div class="nav-item" id="nav-item-2">
-            <div class="nav-item-name">Account</div>
             <img class="nav-item-img" src="/Images/Black/Nutzer.png">
-        </div>
-        <div class="nav-item" id="nav-item-3">
-            <div class="nav-item-name">Settings</div>
-            <img class="nav-item-img" src="/Images/Black/Settings.png">
+            <div class="nav-item-name">Account</div>
         </div>
     </nav>
+    <div class="landing" id="landing">
+        <img class="bottom-img" src="/Images/Background.png">
+        <div class="welcome-text" id="welcome-text">AccountManager</div>
+        <div class="welcome-more" id="welcome-more">View all your accounts in one space, make changes easier</div>
+        <button class="welcome-login" id="welcome-login" onclick="login()">Login</button>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer-text" id="footer-text">© 2023 - LeonTM - No rights reserved</div>
+    </footer>
 </body>
 </html>

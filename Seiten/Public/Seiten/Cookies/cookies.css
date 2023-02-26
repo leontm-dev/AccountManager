@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Josefin+Sans&family=Kanit&family=Lobster&family=Oswald&family=Pacifico&family=Shantell+Sans&family=Source+Code+Pro&family=Teko&family=Tilt+Prism&family=Ubuntu&display=swap');
+.hide {
+    display: none;
+}
+.cookies-popup {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    background-color: white;
+    border-radius: 30px;
+}
+.cookies-title {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    font-family: "Oswald";
+    font-size: 40px;
+}
+.cookies-more {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: "Oswald";
+    font-size: 30px;
+    width: 90%;
+}
+.cookies-accept {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    width: 35%;
+    background-color: green;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: "Oswald";
+    border: none;
+}
+.cookies-decline {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    width: 35%;
+    background-color: red;
+    font-family: "Oswald";
+    font-size: 30px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+}
+.cookies-decline:hover, .cookies-accept:hover {
+    cursor: pointer;
+}
